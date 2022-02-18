@@ -1,0 +1,16 @@
+apiVersion: sample.alien4cloud/v1
+kind: Module
+metadata:
+  name: module-sample
+spec:
+  cu: test
+  module: module-test
+  sub:
+    val1: v1
+    val2: v2
+  lst:
+  - val1: v3
+    val2: v4
+  - val1: v5
+    val2: v6
+
